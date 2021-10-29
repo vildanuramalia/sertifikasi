@@ -8,7 +8,7 @@
     <h5>Catatan : </h5>
     <ul>
         <li>
-            <h5>Gunakan file berformat PDF</h5>
+            <h5>Gunakan file berformat PDF atau Word</h5>
         </li>
     </ul>
 
@@ -55,7 +55,7 @@
             </div>
             {{-- Upload PDF --}}
             <div class="mb-3">
-                <label for="file" class="form-label">File Surat PDF</label>
+                <label for="file" class="form-label">File Surat PDF atau Word</label>
                 <img id="output" src="" class="mb-3 col-sm-5 d-block">
                 <input class="form-control @error('file') is-invalid @enderror" type="file" id="file" name="file"
                     accept="file/*">
